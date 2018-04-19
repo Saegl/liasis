@@ -17,4 +17,4 @@ Designed for code readability and written in python.
 - Run interactive console:
 `python liasis.py run` or `python3 liasis.py run`
 - Run examples from liasis_examples/ directory.
-`python liasis.py "liasis_examples/math.lia" -i`
+`python liasis.py file "liasis_examples/math.lia" -i`
