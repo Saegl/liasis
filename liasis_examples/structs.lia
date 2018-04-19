@@ -1,0 +1,15 @@
+trait Add {
+    function add(self, other)
+}
+
+trait Sub {
+    function sub(self, other)
+}
+
+trait Mul {
+    function mul(self, other)
+}
+
+trait Div {
+    function div(self, other)
+}
