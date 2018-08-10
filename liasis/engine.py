@@ -1,7 +1,7 @@
 from collections import namedtuple
 
-import types_lia as tt
-from parser_lia import ast_lia, parse
+from . import types_lia as tt
+from .parser_lia import ast_lia, parse
 
 
 Function = namedtuple("Function", "args body")

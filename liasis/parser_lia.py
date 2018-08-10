@@ -1,5 +1,5 @@
 from lark import Lark, InlineTransformer
-import ast_lia
+from . import ast_lia
 
 
 grammar = """

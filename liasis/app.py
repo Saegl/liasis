@@ -8,7 +8,7 @@ from prompt_toolkit.styles.pygments import style_from_pygments_cls
 from pygments.lexers.python import Python3Lexer
 from pygments.styles import get_style_by_name
 
-from engine import VirtualLiasisMachine
+from .engine import VirtualLiasisMachine
 
 liasis = VirtualLiasisMachine()
 completer = WordCompleter([
@@ -59,5 +59,8 @@ def file(path, interactive):
         run_input()
 
 
-if __name__ == '__main__':
+def main():
     cli()
+
+if __name__ == '__main__':
+    main()
