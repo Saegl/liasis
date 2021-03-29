@@ -19,7 +19,7 @@ setup(
         'colorama==0.3.9',
         'lark-parser==0.5.5',
         'prompt-toolkit==2.0.4',
-        'Pygments==2.2.0',
+        'Pygments==2.7.4',
         'six==1.11.0',
         'wcwidth==0.1.7',
     ],
